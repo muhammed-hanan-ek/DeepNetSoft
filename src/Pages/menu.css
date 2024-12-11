@@ -1,0 +1,61 @@
+#mainmenubg{
+    background-image:url("../images/Rectangle103.png");
+    height: 311px;
+    width: 100%;
+
+}
+
+.menuh1{
+    margin-top: 80px;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 75px;
+    text-shadow: 4px 3px 5px #800020;
+}
+.para1{
+    margin-top: 0px;
+    color: white;
+}
+.menuhead{
+    margin-top: 80px;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 75px;
+    text-shadow: 4px 3px 5px #800020;
+}
+
+#menuList{
+    background-image: url("../images/Rectangle116.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+
+@media(max-width:480px){
+    .para1{
+        font-size: 10px;
+    }
+    .frame{
+        display: none;
+    }
+    .menuhead{
+        font-size: 25px;
+        margin-top: 0px;
+    }
+    .foodname{
+        font-size: 15px;
+        font-weight: 100;
+    }
+    .fooddesc{
+        font-size: 8px;
+    }
+    .cocktail{
+        width: 100px;
+    }
+    .footdown{
+        font-size: 8px;
+    }
+}

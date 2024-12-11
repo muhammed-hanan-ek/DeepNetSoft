@@ -1,0 +1,35 @@
+#home{
+    background-image: url("../images/Rectangle116.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+}
+.sentance{
+    display: flex;
+    justify-content: center;
+    margin-top:30vh;
+    font-size: 75px;
+    text-align: center;
+    font-weight: bold;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    
+}
+Link{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+@media(max-width:480px){
+    .frame2{
+        display: none;
+    }
+    .sentance{
+        font-size: 30px;
+        margin-top: 40vh;
+    }
+}

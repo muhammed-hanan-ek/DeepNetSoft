@@ -1,0 +1,9 @@
+.head{
+    font-size: 40px;
+    font-weight: bold;
+}
+@media(max-width:480px){
+    .head{
+        font-size: 25px;
+    }
+}

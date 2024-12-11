@@ -1,0 +1,9 @@
+#selectionBarBg{
+    background-image: url("../images/Rectangle107.png");
+    height: 79px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Oswald", sans-serif;
+}

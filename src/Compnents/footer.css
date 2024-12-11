@@ -1,0 +1,21 @@
+#footer{
+    background-color: black;
+    font-family: "Oswald", sans-serif;
+}
+#logofooter{
+    width: 120px;
+    margin-top: -125px;
+}
+@media(max-width:480px){
+    #footerTop{
+        display: none;
+    }
+}
+@media(min-width:1200px){
+    #footerTopmin{
+        display: none;
+    }
+    #logofooter{
+        width: 70px;
+    }
+}
